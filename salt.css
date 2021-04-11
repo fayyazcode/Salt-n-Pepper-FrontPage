@@ -12,19 +12,14 @@ nav {
 }
 
 .navbar-collapse{
-    background:  black !important;
-    position: relative;
-    height: 60px;   
+position: relative;
 }
 .navbar-nav{
-    position: absolute;
-    right: 10px;  
-    font-size: 15px; 
+position: absolute;
+right: 20px;
+
 
 }
-
-
-
 
 
 
@@ -201,4 +196,14 @@ height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+@media only screen and (min-width: 768px){
+    .navbar-nav{
+        position: absolute;
+        right: 20px;
+        background-color: black;
+        padding:10px 30px !important;
+        border-radius: 6px;
+        
+        }
 }

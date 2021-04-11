@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background: #000;
+    padding-top: 5px;
+    width: 100%;
+
+}
+
+.nav-div {
+    width: 100%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+.logo {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+
+}
+
+.nav-list {
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+nav ul {
+    width: 100%;
+    display: inline-block;
+    margin-left: 8%;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 1.5%;
+
+
+
+}
+
+nav ul li>a {
+    text-decoration: none;
+    color: rgba(190, 189, 189, 0.911);
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline;
+    height: 30px;
+    width: 10%;
+
+}
+
+.btn-top {
+    background-color: rgb(220, 20, 20);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: red;
+
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider>img {
+    width: 100%;
+}
+
+.text-div {
+    width: 100%;
+}
+
+.text {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.text>* {
+    margin-bottom: 10px;
+}
+
+.btn-text {
+    padding: 8px 25px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-text:hover {
+    color: whitesmoke;
+    background-color: red;
+}
+
+.btn-div {
+    margin-top: 20px;
+}
+
+.one>img {
+    height: 120px;
+}
+
+.brands {
+    line-height: 1.5rem;
+}
+
+.a-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.a-text a:hover {
+    color: rgb(251, 0, 0);
+}
+
+.btn-product {
+    padding: 4px 15px;
+    background-color: rgb(220, 20, 20);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-product:hover {
+    color: rgba(243, 243, 243, 0.883) !important;
+}
+
+.brands {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.brands img {
+    background-color: white;
+    padding: 10px;
+}
+
+.brands-franchise {
+
+    background-image: url(salt.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.brand-text {
+    padding: 45px 0px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+.add-bg {
+    background-color: rgba(32, 32, 32, 0.794);
+}
+.footer{
+    background: rgba(0, 0, 0, 0.801);
+}
+
+.locate {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 50%;
+
+}
+
+.franchise-text {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.one1 {
+    margin: 0 auto;
+    width: 30%;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.loc-img {
+    width: 80%;
+
+}
+
+.footer-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-ul h3 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ 
+}
+
+.footer-ul li {
+    color: white;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer-div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
